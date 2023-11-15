@@ -23,43 +23,42 @@ public class Ejemplo011 {
         System.out.println("Ingrese el nombre del día de la semana");
         String cadena = entrada.nextLine();
         cadena = cadena.toLowerCase();
-        cadena = cadena.toUpperCase();
 
         switch (cadena) {
             
             case "lunes":
                 System.out.printf("%s, es el primer día de la semana\n",
-                        cadena);
+                        cadena.toLowerCase());
                 break;
 
             case "martes":
                 System.out.printf("%s, es el segundo día de la semana\n",
-                        cadena);
+                        cadena.toLowerCase());
                 break;
 
             case "miercoles":
                 System.out.printf("%s, es el tercer día de la semana\n",
-                        cadena);
+                        cadena.toLowerCase());
                 break;
 
             case "jueves":
                 System.out.printf("%s, es el cuarto día de la semana\n",
-                        cadena);
+                        cadena.toLowerCase());
                 break;
 
             case "viernes":
                 System.out.printf("%s, es el quinto día de la semana\n", 
-                        cadena);
+                        cadena.toLowerCase());
                 break;
 
             case "sabado":
                 System.out.printf("%s, es el sexto día de la semana\n", 
-                        cadena);
+                        cadena.toLowerCase());
                 break;
 
             case "domingo":
                 System.out.printf("%s, es el séptimo dia de la semana\n", 
-                        cadena);
+                        cadena.toLowerCase());
                 break;
 
             default:
