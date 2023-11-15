@@ -14,8 +14,10 @@ import java.util.Scanner;
  */
 public class EjemploCadenas02 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); 
+        // esta línea me permite pedir que ingresen datos por teclado
         entrada.useLocale(Locale.US);
+        // esta línea me permite trabajar los decimales con .
         String cadenaFinal = "Datos Ingresados\n";
         
         System.out.println("Ingrese la ciudad");
@@ -24,10 +26,11 @@ public class EjemploCadenas02 {
         
         cadenaFinal = String.format("%sCiudad:%s\n",
                 cadenaFinal, ciudad);
-        
+        //System.out.printf("%s\n", cadenaFinal);
+         
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
-        
+        //usando cadenaFinal y el String.format acumulo datos y los presento al final a todos
         cadenaFinal = String.format("%sProvincia:%s\n",  
                 cadenaFinal,
                 provincia);
@@ -40,5 +43,6 @@ public class EjemploCadenas02 {
                 pais);
         
         System.out.printf("%s", cadenaFinal);
+        
     }
 }

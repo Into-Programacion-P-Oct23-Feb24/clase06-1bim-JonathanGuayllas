@@ -15,6 +15,7 @@ public class Ejemplo02 {
         String pais;
         
         pais = "Ecuador";
+        //      0123456 char sirve para obtener la letra de una cadena de palabras
         char letra = pais.charAt(0);
         System.out.printf("%s\n", letra);
         

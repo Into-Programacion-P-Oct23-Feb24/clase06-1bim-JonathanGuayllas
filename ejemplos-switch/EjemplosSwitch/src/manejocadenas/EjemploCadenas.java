@@ -12,9 +12,11 @@ package manejocadenas;
 public class EjemploCadenas {
     public static void main(String[] args) {
         String ciudad = "loJa";
+        // toUpperCase es un método que hace que una cadena se presente en mayúsculas
         ciudad = ciudad.toUpperCase();
+        // toLowerCase es un método que hace que una cadena se presente en minúsculas
         System.out.printf("%s\n", ciudad.toLowerCase());
-        System.out.printf("%s\n", ciudad.toUpperCase());
+        //System.out.printf("%s\n", ciudad.toUpperCase());
         System.out.printf("%s\n", ciudad);
         
         
